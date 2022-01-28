@@ -1,6 +1,6 @@
 function Util() {
 
-    function calculateTotalDistributedPassengers(distributeAllSeatsToAllPassengers){
+    function calculateTotalDistributedPassengers(distributedPassengers){
         let totalDistributedPassengers = 0;
         let value;
 
@@ -14,7 +14,7 @@ function Util() {
         let totalNumberOfPassengers = 0;
         let passengers;
 
-        for (passenger of passengersArray) {
+        for (passengers of passengersArray) {
             totalNumberOfPassengers += passengers;
         }
         return totalNumberOfPassengers;
